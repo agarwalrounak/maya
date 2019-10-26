@@ -27,9 +27,9 @@ OpenEBS is an Apache 2.0 Licensed project and all your commits should be signed 
 * Commits should be as small as possible. Each commit should follow the checklist below:
   - For code changes, add tests relevant to the fixed bug or new feature.
   - Pass the compile and tests - includes spell checks, formatting, etc.
-  - Commit header (first line) should convey what changed.
-  - Commit body should include details such as why the changes are required and how the proposed changes.
-  - DCO Signed.
+  - Commit header (first line) should convey what change has been made.
+  - Commit body should include details such as why the changes are required and how the proposed changes will affect the codebase.
+  - DCO Signed. Refer to [sign your work](#sign-your-work).
 * If your PR is not getting reviewed or you need a specific person to review it, please reach out to the OpenEBS Contributors. See [OpenEBS Community](https://github.com/openebs/openebs/tree/master/community).
 
 ## Sign your work
@@ -57,7 +57,7 @@ For setting up a Development environment on your local host, see the detailed in
 ## Reviews against Pull Requests
 
 A PR can be reviewed by both core as well as external contributors. Below can be referred to during reviews:
-- contributor should be faimilar with maya's [idiomatic standards](https://github.com/openebs/maya/blob/master/docs/idiomatic-maya-guide.md)
+- contributor should be familiar with maya's [idiomatic standards](https://github.com/openebs/maya/blob/master/docs/idiomatic-maya-guide.md)
 - contributor should fix all the linting issues raised by the lint tools integrated with maya
 - contributor should try to implement relevant golang based unit tests for the fix/enhancement
 - contributor should try to rework on the review comments as much as possible
